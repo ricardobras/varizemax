@@ -71,6 +71,8 @@
             // Ocultar a barra de cookies
             document.getElementById('cookie-banner').style.display = 'none';
  
+            // Salvar a aceitação dos cookies no local storage
+            localStorage.setItem('cookiesAccepted', 'true');
         }
 
         // Verificar se o usuário já aceitou os cookies
